@@ -1,4 +1,4 @@
-module replay-go-backups
+module replay-db-replication
 
 go 1.21.0
 

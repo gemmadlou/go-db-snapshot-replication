@@ -1,12 +1,12 @@
-# Go Traffic Replay
+# Go DB Snapshot Replication For MySQL
 
-A *very* basic script to allow one to replay traffic with an API using a MySQL database and ElasticSearch monitoring.
+A *very* basic script to replicate one database and import it into another
 
 ## Introduction
 
-All it does, is dump and create a new database and replay queries against an API.
+All it does, is dump and create a new database.
 It doesn't create db credentials or the database server.
- Maybe in future it might do more.
+Maybe in future it might do more.
 
 ## Usage
 
@@ -32,3 +32,4 @@ As I learn by doing, I'll keep a list of resources that have helped me put this 
 
 - exec cmd commands. https://zetcode.com/golang/exec-command/
 - Dotnev. https://github.com/joho/godotenv
+- String interpolation. https://channaly.medium.com/string-interpolation-in-golang-ecb3bcb2d600
